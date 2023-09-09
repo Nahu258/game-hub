@@ -5,7 +5,7 @@ import CriticScore from './CriticScore'
 import getCroppedImageUrl from '../services/image-url'
 
 interface Props {
-  game: Game
+  game: Game;
 }
 
 const GameCard = ({game}: Props) => {
